@@ -1,0 +1,201 @@
+* {
+  font-family: "Chakra Petch", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2d2b4;
+}
+
+.container {
+  width: 80vw;
+  margin: 5px auto;
+}
+
+.section1 {
+  margin: 5px 3px 0;
+  height: 40px;
+  background: #e22a2a;
+  border-radius: 5px;
+}
+
+.section1 .main {
+  float: left;
+  display: flex;
+}
+
+.section1 .title {
+  margin-top: 1px;
+  margin-left: 5px;
+  font-size: 20pt;
+  font-weight: bold;
+  color: white;
+}
+
+.section1 img {
+  width: 40px;
+  height: 40px;
+  margin: 2px 10px;
+  background-size: 2% 2%;
+  background-position: center;
+  text-align: center;
+}
+
+.section1 ul.menubar {
+  font-size: 12pt;
+  font-weight: bold;
+  list-style: none;
+  float: right;
+  margin-top: 10px;
+}
+
+.section1 ul.menubar li {
+  float: left;
+  margin-right: 10px;
+}
+
+.section1 ul.menubar li a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.section1 ul.menubar li a:hover {
+  color: #f60707;
+  font-weight: bolder;
+  border-bottom: 2px solid #02071f;
+  padding-bottom: 0px;
+}
+
+.section2 {
+  border-radius: 10px;
+}
+
+.section2 .carousel-inner {
+  height: inherit;
+}
+
+.section3 {
+  background-color: #f7d6cf;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.section3 h6 {
+  padding: 10px 0px;
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section3 table {
+  width: 100%;
+}
+
+.section3 td {
+  height: fit-content;
+  padding-top: 10px;
+}
+
+.section3 img {
+  width: 80%;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.section3 p {
+  display: block;
+  margin: 10px auto;
+  padding: 5px auto;
+  text-align: center;
+  background-color: #ff0909;
+  color: #ffd000;
+  border-radius: 50px;
+  width: 50%;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.secction5 .product {
+  display: grid;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+  width: 100%;
+  height: 470px;
+  overflow: auto;
+  background-color: rgb(249, 174, 206);
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: #000000;
+}
+
+.secction5 .boxSize_L {
+  height: 250px;
+}
+
+.secction5 .boxSize_M {
+  height: 220px;
+}
+
+.secction5 .productBox {
+  border-radius: 10px;
+  background-color: #ffff;
+  margin: 5px 5px;
+  text-align: center;
+}
+
+.secction5 .productBox .productImg {
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.secction5 .productBox .productTxt {
+}
+
+.secction5 .productBox .productTxt p {
+  padding-left: 10px;
+  padding-bottom: 0;
+  text-align: left;
+  font-size: 10pt;
+  color: rgb(47, 42, 42);
+  margin: 0;
+}
+
+.secction5 .productBox .productTxt h6 {
+  font-weight: bold;
+  color: #fc0303;
+  margin: 0;
+}
+
+.secction5 .productBox button {
+  margin-top: 5px;
+  margin: 2px auto;
+  /* padding: 3px; */
+  width: 70px;
+  background: rgb(251, 206, 4);
+  color: #222020;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 10pt;
+}
+
+.secction5 .productBox button a {
+  text-decoration: none;
+  color: #222020;
+}
+
+.secction5 .productBox button:hover {
+  background: #f71717;
+  color: #f8f811;
+  border: 2px solid #333;
+}
